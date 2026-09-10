@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "webdecoy-clearance-validator-2",
+  "main": "worker.js",
+  "compatibility_date": "2026-07-01",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "WD_SITE_KEY": "8a607cb9-c0f0-4fd2-9b30-9f80c6ea2597",
+    "WD_API_BASE": "https://ingest.webdecoy.com"
+  }
+}
